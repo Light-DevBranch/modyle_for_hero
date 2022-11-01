@@ -9,8 +9,7 @@ use Drupal\Component\Annotation\Plugin;
  *
  * @annotation
  */
-class DlogHeroEntity extends Plugin
-{
+class DlogHeroEntity extends Plugin {
   /**
    * The plugin ID.
    * @var string
