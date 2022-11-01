@@ -1,6 +1,7 @@
 <?php
 namespace Drupal\dlog_hero\Plugin\DlogHero\Entity;
 
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\dlog_hero\Plugin\DlogHero\DlogHeroPluginInterface;
 
 /**
@@ -24,7 +25,9 @@ interface DlogHeroEntityPluginInterface extends DlogHeroPluginInterface {
   public function getEntityBundle();
 
   /**
-   * @return 
+   * Get current entity ID.
+   * @return EntityInterface;
+   * The current ID.
    */
   public function getCurrentEntity();
 
