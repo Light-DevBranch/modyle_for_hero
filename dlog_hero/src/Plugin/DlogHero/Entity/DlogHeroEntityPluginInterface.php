@@ -15,7 +15,7 @@ interface DlogHeroEntityPluginInterface extends DlogHeroPluginInterface {
    * @return string
    * The entity type ID.
    */
-  public function getEntityType(): string;
+  public function getEntityType();
 
   /**
    * Get entity bundles.
